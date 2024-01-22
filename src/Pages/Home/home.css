@@ -1,0 +1,37 @@
+.section {
+  background-image: url(img2.jpeg);
+  background-size: 60%;
+  background-position: 50% 50%;
+
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  background-color: black !important;
+}
+
+.card {
+  width: 350px;
+  height: 250px;
+  background-color: white !important;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    153deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+  border: 0.2px solid #c0c0c056 !important;
+
+  backdrop-filter: blur(15px) !important;
+}
+
+.test {
+  position: absolute;
+  top: 0;
+  font-size: 30px;
+}

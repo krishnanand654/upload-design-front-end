@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  box-shadow: 0px 22px 84px -4px rgba(255, 255, 255, 0.25);
+}
+
+.ant-upload-list {
+  color: white !important;
+}
+
+.ant-upload-list-item .ant-upload-list-item-error {
+  color: red !important;
+}
